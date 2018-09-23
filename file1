@@ -1,0 +1,10 @@
+void main()
+{
+int b,h;
+float area;
+printf("enter base and height\n");
+scanf("%d%d",&b,&h);
+area=(1/2)*b*h;
+printf("area of triangle is given by %f",area);
+getch();
+}
