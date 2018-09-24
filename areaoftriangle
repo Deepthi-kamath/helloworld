@@ -3,17 +3,17 @@
 #include<math.h>
 float areaoftriangle(int b,int h)
 {
-float area;
-area=((1/2)*b*h);
-return area;
+    float area;
+    area=(0.5*b*h);
+    return area;
 }
 int main()
 {
-int p,q;
-float r;
-printf("enter base and height");
-scanf("%d%d",&p,&q);
-r=(p,q);
-printf("area of triangle is given by %f",r);
-getch();
+    int p,q;
+    float r;
+    printf("enter base and height");
+    scanf("%d%d",&p,&q);
+    r=(0.5*p*q);
+    printf("area of triangle is given by %f",r);
+    return 0;
 }
